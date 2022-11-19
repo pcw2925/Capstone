@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+/*모바일메뉴*/
+	header { position: relative; z-index: 20; border-bottom: 2px solid #F5F4F2; background: #fff; }
+	header .btn_left  { position: absolute; top: 10px; left:  10px; display: block; width: 30px; height: 50px; line-height: 50px; text-align: center; font-size: 30px; }
+	header .btn_left i { line-height: 50px; }
+	header .btn_right { position: absolute; top: 10px; right: 10px; display: block; width: 30px; height: 50px; line-height: 50px; text-align: center; font-size: 30px; }
+	header .btn_right i { line-height: 50px; }
+	header .title { padding: 0 40px; line-height: 70px; text-align: center; }
+
+	nav { border-bottom: 2px solid #F5F4F2; }
+	nav ul { overflow-x: auto; overflow-y: hidden; white-space: nowrap; }
+	nav li { display: inline-block; }
+	nav li a { display: block; padding: 10px 5px; font-weight: 700; border-bottom: 2px solid #fff; }
+	nav .on a { border-bottom: 2px solid #000; }
+
+/* 퀵메뉴 */
+	.q_menu { position: fixed; right: 5px; bottom: 70px; width: 60px; height: 60px; }
+
+/* 하단메뉴 */
+	.b_menu { position: fixed; left: 0; bottom: 0; width: 100%; border-top: 1px solid #CCC8C0; background: #fff; }
+	.b_menu ul { overflow: hidden; }
+	.b_menu li { float: left; width: 20%; }
+	.b_menu a { display: block; padding: 8px 0 5px 0; text-align: center; }
+	.b_menu p { padding: 5px 0; line-height: 1em; }

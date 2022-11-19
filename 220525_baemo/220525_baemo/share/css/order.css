@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* 주문 */
+	header .title { padding: 0 40px; line-height: 70px; text-align: center; }
+
+/* 주문내역 */
+	.history { border-top: 5px solid #F5F4F2; }
+	.history > div { padding: 10px; border-bottom: 5px solid #F5F4F2; }
+
+	.history .date { overflow: hidden; }
+	.history .date dt { float: left; width: 50%; }
+	.history .date dd { float: left; width: 50%; text-align: right; }
+	.history .date dd a { display: inline-block; padding: 0 10px; border:1px solid #cdcdcd; border-radius: 50px; }
+
+	.history .shop { overflow: hidden; }
+	.history .shop dt { float: left; width: 20%; padding: 5px 0 0 0; }
+	.history .shop dd { float: left; width: 80%; padding: 5px 0 0 10px; }
+
+/* 배달완료 */
+	.box { padding: 20px 10px; border-bottom: 2px solid #F5F4F2; }
+
+	.box dl { overflow: hidden; }
+	.box dt { float: left; width: 30%; padding: 5px; text-align: left; font-weight: 500; }
+	.box dd { float: left; width: 70%; padding: 5px; text-align: right; }
+
+	.box h4 { padding: 0 0 10px 0; }
+	.box th { padding: 5px; text-align: left; font-weight: 500; }
+	.box td { width: 25%; padding: 5px; text-align: right; }
+
+	.box .count { padding: 10px 0; border-top: 1px solid #000; border-bottom: 1px solid #000; }
+	.box .count i { text-decoration: line-through; }

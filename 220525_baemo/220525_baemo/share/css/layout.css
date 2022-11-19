@@ -1,0 +1,64 @@
+@charset "utf-8";
+/* 공통 */
+	body { width: 100%; height: 100%; font-family: 'Gothic A1', sans-serif; font-size:12px; font-weight: 500; line-height: 1.5em; word-break: keep-all; word-wrap: break-word; color: #000000; }
+	.wrap { max-width: 750px; margin: 0 auto; padding: 0 0 70px 0; }
+	.container { padding: 0 10px; }
+
+	h1, .h1 { margin: 0; padding: 0; font-size: 24px; }
+	h2, .h2 { margin: 0; padding: 0; font-size: 22px; }
+	h3, .h3 { margin: 0; padding: 0; font-size: 20px; }
+	h4, .h4 { margin: 0; padding: 0; font-size: 18px; }
+	h5, .h5 { margin: 0; padding: 0; font-size: 16px; }
+	h6, .h6 { margin: 0; padding: 0; font-size: 14px; }
+
+	.s_tt   { font-size: 10px; }
+
+/* 기준색 */
+	.tc01 { color: #881FC8 !important; }
+	.tc02 { color: #0E8BC0 !important; }
+	.tc03 { color: #09C51C !important; }
+	.tc04 { color: #FF0000 !important; }
+	.tc05 { color: #929292 !important; }
+	.tc06 { color: #7A7676 !important; }
+	.tc07 { color: #aaaaaa !important; }
+
+/* 배경 */
+	.bc01 { color: #fff !important; background: #881FC8 !important; }
+
+/* 버튼 색상 */
+	.bt01 { color: #fff !important; background: #881FC8 !important; }
+
+/* sns 컬러 */
+	.kakao_co  { color: #361d1d; }
+	.naver_co  { color: #34b833; }
+	.fbook_co  { color: #3150b3; }
+	.google_co { color: #3150b3; }
+
+	.kakao_bg { color: #361d1d; background: #ffd325 }
+	.naver_bg { color: #fff; background: #34b833; }
+	.fbook_bg { color: #fff; background: #3150b3; }
+
+/* 텍스트정렬 */	
+	.text_center { text-align: center; }
+	.text_right { text-align: right; }
+	.text_left { text-align: left; }
+
+/* 넓이 */
+	.w50 { width: 50%; }
+
+/* 로케이션 */
+	.location { border-bottom: solid 1px #ddd; }
+
+/* 탭 */
+	.tab ul    { border-bottom: 1px solid #CACACA; overflow: hidden; }
+	.tab li    { float: left; }
+	.tab li a  { display: block; line-height: 40px; text-align: center; color: #929292; border-bottom: 2px solid #fff; }
+	.tab .on a { color: #881FC8; border-bottom: 2px solid #881FC8 }
+
+	.tab .tab02 li{ width: 50%; }
+
+/* 말줄임 */
+	.subject { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+
+/* 로딩 */
+	.loading { position: fixed; width: 100%; height: 100%; background: url(../../img/loading.png) center no-repeat , #881fc8; }

@@ -1,0 +1,19 @@
+@charset "UTF-8";
+/* 상단 */	
+	header .address { padding: 0 40px; line-height: 70px; text-align: center; }
+
+/* 정렬 */
+	.sort ul { padding: 10px 5px; border-bottom: 2px solid #F5F4F2; overflow: hidden; }
+	.sort li { float: left; padding: 0 5px; }
+	.sort button { height: 30px; line-height: 28px; padding: 0 10px; border: 1px solid #C4C4C4; border-radius: 30px; }
+	.sort .on button { color: #fff; border: 1px solid #000000; background: #881FC8; }
+
+	.ban { padding: 10px; border-bottom: 2px solid #F5F4F2; }
+	.ban h1 { padding: 0 0 10px 0; font-weight: 600; }
+	.ban ul { margin: 0 -5px; overflow: hidden; }
+	.ban li { float: left; width: 33.3%; padding: 0 5px; text-align: center; }
+	.ban p { font-weight: 600; }
+	.ban p:nth-of-type(1) { padding: 10px 0 0 0; }
+
+	.list th { width: 120px; padding: 5px 0; border-bottom: 2px solid #F5F4F2; }
+	.list td { padding: 0 5px; border-bottom: 2px solid #F5F4F2; }

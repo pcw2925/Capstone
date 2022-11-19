@@ -1,0 +1,71 @@
+@charset "utf-8";
+/* 정보 */
+	header .title { padding: 0 40px; line-height: 70px; text-align: center; }
+
+	.img_wrap { position: relative; border-bottom: 2px solid #F5F4F2; }
+	.img_wrap .back { position: absolute; top: 0px; left: 0; padding: 5px; font-size: 30px; }
+
+	.box { padding: 10px; border-bottom: 2px solid #F5F4F2; }
+
+	.name { position: relative;  }
+	.name h3 { line-height: 1.5em; }
+
+	.name .star { width: 20px; vertical-align: top; }
+	.name .btn_link { position: absolute; top: 15px; right: 10px; padding: 5px; }
+
+	.info_wrap th { width: 30%; padding: 5px 0; font-weight: 600; text-align: left; }
+	.info_wrap td { width: 70%; padding: 5px 0; font-weight: 600; }
+
+	.tab { font-weight: 600; border-bottom: 2px solid #F5F4F2; }
+
+	.list    { padding: 5px 0; }
+	.list td { width: 80%; padding: 5px 10px; border-bottom: 1px solid #F5F4F2; }
+	.list th { width: 20%; padding: 5px 10px; border-bottom: 1px solid #F5F4F2; }
+	.list img { border-radius: 5px; }
+
+	.bar { padding: 10px; background: #F5F4F2; }
+	.bar i { float: right; }
+	.bar i:before { content: "\e945"; font-family: 'xeicon'; font-size: 18px; }
+	.bar .on i:before { content: "\e942"; font-family: 'xeicon'; }
+
+/* 가격 */
+	.price dl { overflow: hidden; }
+	.price dt { float: left; width: 50%; line-height: 1.2em; font-weight: 700; }
+	.price dd { float: left; width: 50%; line-height: 1.2em; font-weight: 700; text-align: right; }
+
+/* 선택 */
+	.selec h4 { padding: 10px 0; }
+	.selec td { padding: 10px 0; }
+	.selec td:nth-child(2) { text-align: right; width: 30%; }
+
+/* 수량 */
+	.qua dl { overflow: hidden; }
+	.qua dt { float: left; width: 50%; line-height: 1.2em; font-weight: 700; line-height: 30px; }
+	.qua dd { float: left; width: 50%; line-height: 1.2em; font-weight: 700; text-align: right; }
+	.qua span { display: inline-block; width: 25px; height: 25px; line-height: 25px; text-align: center; border:1px solid #000; }
+	.qua p    { display: inline-block; padding: 0 10px; }
+
+/* 총금액 */
+	.total dl { padding: 10px 0; overflow: hidden; }
+	.total dt { float: left; width: 50%; line-height: 1.2em; font-weight: 700; line-height: 30px; }
+	.total dd { float: left; width: 50%; line-height: 1.2em; font-weight: 700; text-align: right; }
+	.total h6 { padding: 0 0 5px 0; text-align: center; }
+	.total input { border-radius: 2px; }
+
+/* 상품 */
+	.product h5 { padding: 5px 0; }
+	.product th { width: 25%; padding: 10px 0; }
+	.product td { padding: 10px 0 10px 10px; text-align: right; }
+	.product td p { text-align: left; }
+	.product td span { display: inline-block; width: 25px; height: 25px; line-height: 25px; text-align: center; border:1px solid #000; }
+	.product td .num { display: inline-block; padding: 0 10px; } 
+
+/* 메뉴추가 */
+	.add_menu a { display: block; padding: 5px; text-align: center; }
+
+/* 계산 */
+	.count h5 { padding: 5px 0; }
+	.count dl { overflow: hidden; }
+	.count dt { float: left; width: 50%; padding: 5px 0; }
+	.count dd { float: left; width: 50%; padding: 5px 0; text-align: right; }
+	.count i { text-decoration: line-through; }

@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* 리뷰 */
+	header .title { padding: 0 40px; line-height: 70px; text-align: center; }
+
+	.box { padding: 10px; border-bottom: 2px solid #F5F4F2; }
+
+	.r_list > div { padding: 10px; border-bottom: 2px solid #F5F4F2; }
+	.r_list dl { overflow: hidden; }
+	.r_list dt { float: left; width: 30%; }
+	.r_list dd { position: relative; float: left; width: 70%; }
+	.r_list dd a { position: absolute; top: 5px; right: 5px; font-size: 12px; color: #AAAAAA; }
+	.r_list dd h5 { padding: 5px 0; }
+	.r_list dd h6 img { width: 16px; }
+	.r_list .name { padding: 5px 0; }
+	.r_list .con  { padding: 5px 0; }
+	.r_list .img_box { position: relative; }
+	.r_list .img_box span { position: absolute; top: 5px; right: 10px; padding: 0 10px; font-size: 10px; color: #fff; border-radius: 3px; background: rgba(0, 0, 0, 0.5); }
+
+/* 리뷰쓰기 */
+	.box .tt      { padding: 5px 0; text-align: center; }
+	.star_wrap    { text-align: center; }
+	.star_wrap h5 { padding: 5px 0; }
+	.box .counter { text-align: right; }
+	.box .counter i { color: #E5E5E5; }
+
+	.add_box { overflow: hidden; }
+	.add_box li { float: left; padding: 5px; }
+
+	.tt_box { padding: 10px; color: #747474; background: #F5F4F2; }
+	
+	.box input { border-radius: 2px; }

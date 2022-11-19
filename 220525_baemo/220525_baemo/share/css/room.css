@@ -1,0 +1,16 @@
+@charset "utf-8";
+/* 방만들기 */
+	.room_name { padding: 0 40px; }
+	.room_name dl { overflow: hidden; }
+	.room_name dt { float: left; padding: 5px 0; }
+	.room_name dd { float: left; padding: 10px 0 10px 10px; }
+	.room_name h5 { padding: 5px 0; }
+
+	.box .title { line-height: 1.5em; overflow: hidden; }
+	.box .title button { float: right; width: auto; height: 20px; padding: 0 5px; border: 1px solid #881FC8; border-radius: 2px; }
+
+	.box { padding: 10px; border-bottom: 2px solid #F5F4F2; }
+	.box td { padding: 5px; }
+	.box td button { border: 1px solid #881FC8; }
+	.box td p { padding: 10px 5px; text-align: center; color: #929292; background: #F5F4F2; }
+	.btn_wrap { padding: 10px 15px; }
